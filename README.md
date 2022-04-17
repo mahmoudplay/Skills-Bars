@@ -12,9 +12,8 @@ This repository will make your portfolio more better and will increase your chan
 
 
 #### Step 1 : 
-<br>
 
-###### First paste html code in empty spce in html file and if you don't have one i suggest this file name : ```index.html```
+#### First paste html code in empty spce in html file and if you don't have one i suggest this file name : ```index.html```
 
 <br>
 <hr>

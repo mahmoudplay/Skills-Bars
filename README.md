@@ -7,7 +7,7 @@ This repository will make your portfolio more better and will increase your chan
 
 <br>
 
-##### Example : 
+##### Code result : 
 ![I'm example](https://cdn.discordapp.com/attachments/956682149979889705/965086124060069988/unknown.png)
 
 

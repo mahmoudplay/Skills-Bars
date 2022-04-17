@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+/*first*/
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+/*Skills bars*/
+}
+.word {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  position: absolute;
+  left: 15rem;
+  top: -2rem;
+  cursor: url("https://itsabumaher.ml/text"), text;
+}
+::selection {
+  color: #fff;
+  background: #5865F2;
+}
+.skills {
+  position: relative;
+  padding-left: 50rem;
+}
+.skill-bars {
+  padding: 25px 30px;
+  width: 600px;
+  position: relative;
+  top: 18rem;
+
+  position: relative;
+  padding-left: 20cm;
+
+  margin: auto;
+
+  padding: 10px;
+}
+.skill-bars .bar {
+  margin: 20px 0;
+}
+.skill-bars .bar:first-child {
+  margin-top: 0px;
+}
+.skill-bars .bar .info {
+  margin-bottom: 5px;
+}
+.skill-bars .bar .info span {
+  font-weight: 500;
+  font-size: 17px;
+  opacity: 0;
+  animation: showText 0.5s 1s linear forwards;
+}
+@keyframes showText {
+  100% {
+    opacity: 1;
+  }
+}
+.skill-bars .bar .progress-line {
+  height: 8px;
+  width: 100%;
+  background: #ffffff;
+  position: relative;
+  transform: scaleX(0);
+  transform-origin: left;
+  border-radius: 10px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05), 0 1px #02005a;
+  animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+@keyframes animate {
+  100% {
+    transform: scaleX(1);
+  }
+}
+.bar .progress-line span {
+  height: 100%;
+  position: absolute;
+  border-radius: 10px;
+  transform: scaleX(0);
+  transform-origin: left;
+  background: #02005a;
+  animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+.bar .progress-line.html span {
+  width: 92%;
+}
+.bar .progress-line.css span {
+  width: 73%;
+}
+.bar .progress-line.javascript span {
+  width: 37%;
+}
+.bar .progress-line.photoshop span {
+  width: 72%;
+}
+.progress-line span::before {
+  position: absolute;
+  content: "";
+  top: -10px;
+  right: 0;
+  height: 0;
+  width: 0;
+  border: 7px solid transparent;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  border-top-color: #000;
+  opacity: 0;
+  animation: showText2 0.5s 1.5s linear forwards;
+}
+.progress-line span::after {
+  position: absolute;
+  top: -28px;
+  right: 0;
+  font-weight: 500;
+  background: #000;
+  color: #fff;
+  padding: 1px 8px;
+  font-size: 12px;
+  border-radius: 3px;
+  opacity: 0;
+  animation: showText2 0.5s 1.5s linear forwards;
+}
+@keyframes showText2 {
+  100% {
+    opacity: 1;
+  }
+}
+.progress-line.html span::after {
+  content: "92%";
+}
+.progress-line.css span::after {
+  content: "73%";
+}
+.progress-line.javascript span::after {
+  content: "37%";
+}
+.progress-line.photoshop span::after {
+  content: "72%";
+}
